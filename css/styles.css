@@ -247,6 +247,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .projects {
     padding-top: 0px;
+    padding-bottom: 72px;
 }
 
 .options-item-button:hover, .options-item-button:focus {
@@ -265,6 +266,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
+    padding: 0px 16px;
+    margin-bottom:8px;
 }
 
 .projects-list {
@@ -297,6 +300,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.5em;
     letter-spacing: 0.32px;
     margin-bottom: 32px;
+    padding: 0 16px;
 }
 /*Porfolio-Body-End*/
 
