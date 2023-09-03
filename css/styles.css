@@ -152,10 +152,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /*Footer*/
 .main-footer {
     background-color: var(--navyblue);
-}
-
-.container.main-footer-container{
-    padding: 100px 864px 100px 0px;
+    padding: 100px 0px;
 }
 
 .main-footer-web {
@@ -191,6 +188,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.5em;
     letter-spacing: 0.32px;
     margin-top: 16px;
+    width: 264px;
 }
 
 .main-footer-web:hover .main-footer-span-web {
@@ -263,10 +261,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     justify-content: space-between;
     flex-grow: 0px;
     flex-shrink: 0px;
-}
-
-.projects-list>:nth-child(1), .projects-list>:nth-child(2), .projects-list>:nth-child(3), .projects-list>:nth-child(4), .projects-list>:nth-child(5), .projects-list>:nth-child(6) {
-    margin-bottom: 48px;
+    row-gap: 48px;
 }
 
 .projects-item {
@@ -276,7 +271,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .projects-item-title-container {
-    padding: 32px 0px 32px 16px;
+    padding: 32px 16px;
 }
 
 .projects-item-title {
@@ -381,7 +376,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
